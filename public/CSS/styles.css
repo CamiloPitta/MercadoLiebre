@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+} 
+
+/* Body */
+
+body{
+    background-color: #EAC926;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-header {
+    width: 20vw;
+    margin: 4vw;
+
+}
+
+#barra-busqueda{
+    display: block;
+    width: 40vw;
+    height: 6vh;
+    margin-left: 4vw;
+    font-size: 3vh;
+}
+
+#Compra-en-cuotas{
+    text-align: center;
+    margin: 4vw;
+}
+
+.opciones-header-1{
+    line-height: 33px;
+    margin: 10vh;
+    color:blueviolet;
+}
+
+.opciones-header-2{
+    line-height: 33px;
+    margin: 10vh;
+}
+
+p{
+    margin: 3px;
+} 
+
+/* MAIN */
+
+main{
+    margin: 0 auto;
+    text-align: center;
+    width: 50vw;
+    background-color: blue;
+} 
+
+/* Contenedor artículos */
+
+.texto-articulo {
+    width: 70%;
+    margin: 0 auto;
+    background-color: purple;
+    border-top: 1px solid orange;
+    padding: 20px;
+}   
+
+/* Basado en tu ultima vista  */
+
+/* Tamaño imágenes */
+
+#Basado-en-tu-ultima-vista #primer-articulo-basado-en-ultima-vista #primero{
+    width: 70%;
+} 
+#Basado-en-tu-ultima-vista #segundo-articulo-basado-en-ultima-vista #segundo{
+    width: 70%;
+}
+
+/* Ofertas */
+
+/* Tamaño imágenes */
+
+#Ofertas #primer-articulo-ofertas #primero{
+    width: 70%;
+}
+#Ofertas #segundo-articulo-ofertas #segundo{
+    width: 10%;
+}
+
+/* Tamaño letra */
+
+ .Titulares-main{
+    font-size: 24px;
+}  
+
+ .price{
+    font-size: 18px;
+} 
+
+.discount{
+    font-size: 16px;
+}
+
+.description{
+    font-size: 16px;
+} 
+
+/* FOOTER */
+
+footer{
+    background-color: white;
+    padding: 30px;
+}
+
+/* Secciones */
+
+#Copyright{
+    font-size: 12px;
+}
+
+/* Subtítulos */
+
+.sub-footer{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.section-footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sub-sub-footer{
+    font-size: 12px;
+}
+
+/* Tamaño imágenes */
+
+/* i {
+    margin-bottom: 10px;
+    color: #1259c3;
+} */
+
+/* Footer completo */
+
+footer{
+    text-align: center;
+}
