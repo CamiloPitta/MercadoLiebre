@@ -5,27 +5,34 @@
 /* Body */
 
 body{
-    background-color: #EAC926;
+    /* background-color: #EAC926; */
     font-family: 'Open Sans', sans-serif;
 }
 
-/* HEADER */
+/*------------------------------------------------ HEADER ------------------------------------------------*/
 
 header{
-    font-size: 24px;
+    /* height: 10vh; */
     font-family: 'Roboto', sans-serif;
+    background-color: #EAC926; 
+}
+
+#header-superior{
+    display: flex;
+    align-items: center;
+
 }
 
 .logo-header {
-    width: 20vw;
-    margin: 4vw;
+    width: 30vw;
+    margin: 2vw;
 
 }
 
 #barra-busqueda{
     display: block;
-    width: 40vw;
-    height: 6vh;
+    width: 20vw;
+    height: 4vh;
     margin-left: 4vw;
     font-size: 3vh;
 }
@@ -33,87 +40,211 @@ header{
 #Compra-en-cuotas{
     text-align: center;
     margin: 4vw;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#opciones-header{
+    display: flex;
 }
 
 .opciones-header-1{
     line-height: 33px;
-    margin: 10vh;
-    color:blueviolet;
+    /* margin: 10vh; */
+    display: flex;
+    justify-content: left;
+    width: 50%;
 }
 
 .opciones-header-2{
     line-height: 33px;
-    margin: 10vh;
+    /* margin: 10vh; */
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    text-align: right;
 }
 
-p{
-    margin: 3px;
-} 
+.opcion-header{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-/* MAIN */
+#menu-barras{
+    margin: auto;
+    height: 40px;
+
+}
+
+#menu-barras{
+    display: none;
+}
+
+#banner{
+    width: 100%;
+    margin: 0;
+}
+
+
+/*------------------------------------------------ MAIN ------------------------------------------------*/
+
+
 
 main{
     margin: 0 auto;
     text-align: center;
-    width: 50vw;
-    background-color: blue;
+    /* width: 90vw; */
+    background-color: #ebebeb;
+    /* background-color: blue; */
 } 
+
+#productos-general{
+    display: flex;
+}
+
+.contenedor-articulos{
+    margin: 5px; 
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* Ofertas y búsqueda */
+
+.space-superior{
+    height:30px;
+}
+
+#basado-en-tu-ultima-vista{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ofertas{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;;
+}
 
 /* Contenedor artículos */
 
 .texto-articulo {
-    width: 70%;
-    margin: 0 auto;
-    background-color: purple;
-    border-top: 1px solid orange;
+    width: 100%;
+    margin: 0;
+    border-top: 3px solid  #ebebeb;;
     padding: 20px;
+    background-color: white;
 }   
+
+.primer-renglon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.imagen-articulo{
+    width: 100%;
+}
+
+
 
 /* Basado en tu ultima vista  */
 
 /* Tamaño imágenes */
 
-#Basado-en-tu-ultima-vista #primer-articulo-basado-en-ultima-vista #primero{
+/* #Basado-en-tu-ultima-vista #primer-articulo-basado-en-ultima-vista #primero{
     width: 70%;
 } 
+
 #Basado-en-tu-ultima-vista #segundo-articulo-basado-en-ultima-vista #segundo{
     width: 70%;
-}
+} */
 
 /* Ofertas */
 
 /* Tamaño imágenes */
 
-#Ofertas #primer-articulo-ofertas #primero{
+/* #Ofertas #primer-articulo-ofertas #primero{
     width: 70%;
 }
 #Ofertas #segundo-articulo-ofertas #segundo{
     width: 10%;
-}
+} */
 
 /* Tamaño letra */
 
- .Titulares-main{
+ .titulares-main{
     font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }  
 
  .price{
-    font-size: 18px;
+    font-size: 3vh;
+    width: 50%;
+    text-align: left;
+
 } 
 
 .discount{
-    font-size: 16px;
+    font-size: 2.75vh;
+    width: 50%;
+    text-align: center;
+    color: green;
+
 }
 
 .description{
     font-size: 16px;
 } 
 
-/* FOOTER */
+.logo-envio{
+    /* display: block ;
+    font-size: 16 px ;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ; */
+    border: 1 px solid #39b54a ;
+    height: 3vh;
+    color: #39b54a;
+    position: absolute ;
+    right: 20px ;
+    bottom: 110px ;
+}
+
+/* .logo-envio {
+    display: block ;
+    font-size: 16 px ;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ;
+    position: absolute ;
+    right: 20px ;
+    top: -15px ;
+    } */
+
+/*------------------------------------------------ FOOTER ------------------------------------------------*/
 
 footer{
     background-color: white;
     padding: 30px;
+    text-align: center;
+    height: 10vh;
+}
+
+#elementos-footer{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Secciones */
@@ -127,12 +258,13 @@ footer{
 .sub-footer{
     font-size: 24px;
     font-weight: bold;
+    margin-top: 3vh;
 
 }
 
 .section-footer{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .sub-sub-footer{
@@ -148,6 +280,108 @@ footer{
 
 /* Footer completo */
 
-footer{
-    text-align: center;
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 361px) and (max-width: 769px){
+    .contenedor-articulos{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    /* .opciones-header-1{
+        display: none;
+    } */
+    #menu-barras{
+        display: none;
+    }
+
+    .opciones-header-1{
+        font-size: 1vw;
+    }
+    .opcion-header{
+        font-size: 1.75vw;
+    }
+
+    .price{
+        font-size: 3vw;
+    }
+    .discount{
+        font-size: 2.75vw;
+    }
+
+
 }
+
+
+@media  (max-width: 361px){
+    .description{
+        display: none;
+    }
+
+    #menu-barras{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #header-superior{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-header{
+        width: 50%;
+    }
+
+    #barra-busqueda{
+        width: 40%;
+        height: 8vh;
+        border-radius: 5px;
+        border: none;
+    }
+
+    #Compra-en-cuotas{
+        /* margin-left: 18vw;
+        margin-top: 5vh; */
+        margin: 0 auto;
+    }
+
+    #banner{
+        height: 20vh;
+    }
+
+    .opciones-header-1{
+        display: none;
+    }
+    .opciones-header-2{
+        display: none;
+    }
+
+    .contenedor-articulos{
+        box-shadow: none;
+    }
+   
+    .price{
+        font-size: 10vw;
+    }
+    .discount{
+        font-size: 7vw;
+    }
+
+    .sub-footer{
+        font-size: 3vw;
+        /* margin-top: 2vh;
+        margin-bottom: ; */
+    }
+
+    .sub-sub-footer{
+        font-size: 2.5vw;;
+    }
+
+    .section-footer{
+        margin: 0;
+    }
+
+}
+
