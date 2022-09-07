@@ -335,6 +335,10 @@ form{
     display: inline;
 }
 
+.login-form:hover{
+    background-color: #0022AA;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 361px) and (max-width: 769px){
