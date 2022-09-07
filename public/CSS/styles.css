@@ -271,6 +271,14 @@ footer{
     font-size: 12px;
 }
 
+.logo-footer{
+    color: royalblue;
+}
+
+.logo-footer:hover{
+    color: #EAC926
+}
+
 /* Tamaño imágenes */
 
 /* i {
@@ -280,8 +288,52 @@ footer{
 
 /* Footer completo */
 
+form{
+    width: 50%;
+    /* background-color: #d3d3d3; */
+    background-color: rgba(0,0,255,0.75);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-radius: 30px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
 
 
+
+}
+
+.form-container{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+ .redondeo{
+    border-radius: 10px;
+    border: none;
+} 
+
+.ef{
+    height: 3vh;
+}
+
+.ef2{
+    height: 1vh;;
+}
+
+.box{
+    display: inline;
+    border-radius: 5px;
+}
+
+.label-f{
+    display: inline;
+}
 
 /* MEDIA QUERIES */
 
@@ -385,3 +437,10 @@ footer{
 
 }
 
+/* .fa .fa_hover-hidden{
+    color:#EAC926;
+}
+
+.fa .fa_hover-show{
+    color:green;
+} */
